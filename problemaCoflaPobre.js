@@ -17,7 +17,7 @@ const validarEntrada = (time)=>{
 validarEntrada(22);
 validarEntrada(23);
 validarEntrada(1);
-validarEntrada(1.2);
+validarEntrada(12);
 validarEntrada(2);
 validarEntrada(3);
 validarEntrada(10);
