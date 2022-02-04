@@ -6,6 +6,8 @@ const validarEntrada = (time)=>{
         if(time >= 2 && time <= 7 && free == false){
             alert(`Son las ${time}:00hr. Puedes pasar gratis eres el primero`);
             free = true;
+        }else if(time > 7){
+            alert("Ya cerro la fiesta");
         }else{
             alert(`Son las ${time}:00hr. Tienes que pagar, ya entro el primero!`);
         }
